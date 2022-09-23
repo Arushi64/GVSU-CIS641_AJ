@@ -7,7 +7,7 @@ Project description (~1 paragraph)
 * [Arushi Sharma](https://github.com/Arushi64/-CIS641-HW2-Sharma) (Role 1, Role 2)
 * [Jeremy Wood](https://github.com/woodjer18/CIS641-HW2-Wood.git)(Role 3, Role 4)
 * [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi)(Role 5, Role 6))
-* [Adilakshmi] (https://github.com/adi798915/641-Hw2-jammigumpula)(Role 7, Role 8)
+* [Adilakshmi](https://github.com/adi798915/641-Hw2-jammigumpula)(Role 7, Role 8)
 
 ## Prerequisites
 
