@@ -6,6 +6,10 @@ Team members: Arushi, Jeremy, Adi, Pridhvi
 
 (In 2-4 paragraphs, describe your project concept)
 - detection sprites
+- keep score and track losses and wins or lives
+- add music 
+- determine win or game over criteria ( max game duration of 2 mins or max high score of TBD)
+- 
 
 # Anticipated Technologies
 
@@ -24,15 +28,21 @@ Team members: Arushi, Jeremy, Adi, Pridhvi
 
 Steps to break the project down: (create issues for these)
 - Step 1: Getting Scratch, Setting It Up and Finding Images
-- Step 2: Set Up Your Characters
+- Step 2: Set Up Your Characters/ Sprites( main character and enemies)
 - Step 3: Make Your Flooring, Border and Background
 - Step 4: Write code for every character and suceeding levels 
+- Step X: Test Code Every Step of the way
 
 # Estimated Timeline
 
 (Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
-
+- 2nd October- Have a basic idea of game requirements and design by this date
+- 9th October- Start working on the game and have backgrounds and images operational  
+- 31st October- Have characters and sprites operational on the first level ( have necessary reqs done by this time)
+- Work on adding extra features we would like to add to the game, changing difficulty of the levels, etc.
+- Mid November: make sure game is fully operational and test for bugs 
 # Anticipated Problems
 
 (Describe any problems you foresee that you will need to overcome)
-- Not everyone on the team is familiar with 
+- Not everyone on the team has extensive developing experience
+- Trying to figure out everyone's roles
