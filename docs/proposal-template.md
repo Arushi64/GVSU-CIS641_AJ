@@ -9,6 +9,7 @@ Team members: Arushi, Jeremy, Adi, Pridhvi
 - keep score and track losses and wins or lives
 - add music 
 - determine win or game over criteria ( max game duration of 2 mins or max high score of TBD)
+- For our game, we plan on making something similar to 2D Super Mario. We spoke about adding various levels to the game that would increase in difficulty and adding different enemy sprits throughout the progression. The game may also change in scenery throughout the various levels depending on what we are able to do with our code. We haven't decided on an official technology that we plan on using yet. We spoke about using Scratch if we are able to do so, otherwise we are leaning towards PyGame. We are also planning to add background music to the game and adding the ability to keep track of losses and wins. The game is also expected to have some form of time limit to finish each level. 
 - 
 
 # Anticipated Technologies
@@ -31,7 +32,7 @@ Steps to break the project down: (create issues for these)
 - Step 2: Set Up Your Characters/ Sprites( main character and enemies)
 - Step 3: Make Your Flooring, Border and Background
 - Step 4: Write code for every character and suceeding levels 
-- Step X: Test Code Every Step of the way
+- Step 5: Test Code Every Step of the way
 
 # Estimated Timeline
 
