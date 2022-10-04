@@ -34,7 +34,7 @@ def main():
 
 
 
-# ensures main can only be run from this file and cannot be imported
+# ensures main can only be run from this file and cannotbe imported
 if __name__ == "__main__":
     main()
 
