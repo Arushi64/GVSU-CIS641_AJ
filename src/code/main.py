@@ -1,7 +1,9 @@
 import pygame
+from settings import *
 
-WIDTH, HEIGHT = 1280, 720
-WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+# not using specs below- instead using specs declared in settings.py
+# width, height = 1280, 720
+WIN = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Dangerous Dave")
 
 WHITE = (255,255,255)
