@@ -1,5 +1,6 @@
 
 # settings from tiled- when creating the map
+# sourced from: https://www.youtube.com/watch?v=wJMDh9QGRgs
 vertical_tile_number = 11
 tile_size = 64
 

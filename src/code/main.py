@@ -1,24 +1,27 @@
 import pygame
 from settings import *
+from level import Level
 
 # not using specs below- instead using specs declared in settings.py
 # width, height = 1280, 720
-WIN = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Dangerous Dave")
+window = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Nostalgia")
+clock = pygame.time.Clock()
+level = Level(level_data, window)
 
-WHITE = (255,255,255)
-COLOR1 = (230,45,24)
+
+white = (255,255,255)
+color1 = (250,235,215)
 
 FPS = 60
 
 def draw_window():
-    WIN.fill(WHITE)
+    window.fill(color1)
     pygame.display.update()
 
 
-# main game function 
-def main():
-    # clock = pygame.time.Clock(FPS = 60) # caps fps at x frames per second 
+
+def main(): 
     run = True
 
     # game will run until run is not true or you exit out of it
@@ -32,6 +35,23 @@ def main():
         draw_window()
 
     pygame.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
