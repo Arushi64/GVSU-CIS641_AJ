@@ -1,13 +1,15 @@
 import pygame
+import sys
 from settings import *
 from level import Level
+from game_data import level_0
 
 # not using specs below- instead using specs declared in settings.py
 # width, height = 1280, 720
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Nostalgia")
 clock = pygame.time.Clock()
-level = Level(level_data, window)
+level = Level(level_0, window)
 
 
 white = (255,255,255)
@@ -31,8 +33,11 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
+                sys.exit()
         
+        level.run()
         draw_window()
+        
 
     pygame.quit()
 
