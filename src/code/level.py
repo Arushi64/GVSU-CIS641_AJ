@@ -7,8 +7,8 @@ class Level:
         self.display_surface = surface
         
         # function imported from support.py
-        terrain_layout = import_csv_layout(level_data['terrain'])
-        # terrain_layout = '../levels/0/level_0_terrain.csv'
+        # terrain_layout = import_csv_layout(level_data['terrain'])
+        terrain_layout = '../code/0/level_0_terrain.csv'
 
 
     def run(self):
