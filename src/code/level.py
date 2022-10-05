@@ -1,14 +1,35 @@
 import pygame
+import csv
 from support import import_csv_layout
+from settings import * 
+from tiles import *
 
 
 class Level:
     def __init__(self, level_data, surface):
         self.display_surface = surface
         
-        # function imported from support.py
-        # terrain_layout = import_csv_layout(level_data['terrain'])
-        terrain_layout = '../code/0/level_0_terrain.csv'
+        # import_Csv function imported from support.py
+
+        # set up the background(terrain)- using graphics instead of terrain for testing
+        terrain_layout = import_csv_layout(level_data['terrain'])
+        # ensures we are only looking at the terrain graphic 
+        self.terrain_sprites = self.create_tile_group(terrain_layout, 'terrain')
+
+    def create_tile_group(self,layout,type):
+        sprite_group = pygame.sprite.Group()
+
+        for row_index, row in enumerate(layout):
+            for col_index, val in enumerate(row):
+                if val != -1:
+                    x = col_index * tile_size
+                    y = row_index * tile_size
+
+                    if type == 'terrain':
+                        sprite = Tile(tile_size, x, y)
+                        sprite_group.add(sprite)
+        return sprite_group
+
 
 
     def run(self):

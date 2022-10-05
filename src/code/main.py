@@ -4,7 +4,7 @@ from settings import *
 from level import Level
 # from support import import_csv_layout
 from game_data import level_0
-# from tiles import *
+from tiles import *
 
 # not using specs below- instead using specs declared in settings.py
 # width, height = 1280, 720
