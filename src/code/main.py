@@ -11,6 +11,7 @@ from tiles import *
 pygame.init()
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Nostalgia")
+
 clock = pygame.time.Clock()
 level = Level(level_0, window)
 
@@ -18,6 +19,9 @@ level = Level(level_0, window)
 white = (255,255,255)
 color1 = (250,235,215)
 FPS = 60
+
+test_surface = pygame.Surface((10,20))
+test_surface.fill('Purple')
 
 while True:
 	for event in pygame.event.get():
@@ -30,40 +34,6 @@ while True:
 
 	pygame.display.update()
 	clock.tick(FPS)
-
-# def draw_window():
-#     window.fill(color1)
-#     pygame.display.update()
-
-# def main(): 
-#     run = True
-
-#     # game will run until run is not true or you exit out of it
-#     while run:
-
-#         # check for events in pygame
-#         for event in pygame.event.get():
-#             if event.type == pygame.QUIT:
-#                 run = False
-#                 # sys.exit()
-        
-#         level.run()
-#         draw_window()
-        
-
-#     pygame.quit()
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
