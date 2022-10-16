@@ -16,6 +16,12 @@ Arushi S:
 3. The system shall  display a scorebar in the middle of the screen while level play is active.
 4.The system shall display the remaining lives while level play is active.
 
+Pridhvi M:
+
+1. Development platform:  The Development platform is a fundamental software the makes hardware work.
+2. Levels:  The game developed with levels and for each level increasing in complexity.
+3. Messages: Contains pop ups with some game information like score and help in navigation.
+4. The device must have a keyboard: To play the game the device must contain Keyboard.
 
 # Non-functional Requirements
 
@@ -30,3 +36,14 @@ Arushi S:
 2. The game shall load main screen within 3 seconds.
 3. The game shall load level play within 3 seconds. 
 4. The game shall update lives remaining within 1 second .
+
+Pridhvi M:
+1. User interface: It is a system that contains hardware and visual components.
+2. Software: It is about how the game is built in Python, Py-game.
+3. Performance: The performance is about how our computer will handle and display the games. And tell about what is the run time was.
+4. Safety of players: The safety of players is about protecting gamers and especially children from unnecessary ad's and content.
+
+
+
+
+
