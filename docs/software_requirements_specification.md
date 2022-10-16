@@ -4,10 +4,18 @@ group member building 4 functional and non-functional requirements each. We are 
 requirements for the game we are building. These requirements will help guide the process of creating the game.
 
 # Functional Requirements
+
+Jeremy W:
 1. The system shall allow a user to play as a character in the game.
 2. The system shall allow an administrator to set time limits during each level of gameplay.
 3. The system shall allow a user to move/control a character during game play.
 4.The system shall detect a collision between the character and objects during game play.
+
+Arushi S:
+5. The system shall restart the game in tutorial level if the player crashes into the obstacle and presses the space key
+6. The system shall revert to main screen of the game if the player runs out of 3 lives
+7. The system shall display a scorebar in the middle of the screen while level play is active 
+8. The system shall display the remaining lives while level play is active
 
 
 # Non-functional Requirements
