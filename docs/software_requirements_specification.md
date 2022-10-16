@@ -12,10 +12,10 @@ Jeremy W:
 4.The system shall detect a collision between the character and objects during game play.
 
 Arushi S:
-5. The system shall restart the game in tutorial level if the player crashes into the obstacle and presses the space key
-6. The system shall revert to main screen of the game if the player runs out of 3 lives
-7. The system shall display a scorebar in the middle of the screen while level play is active 
-8. The system shall display the remaining lives while level play is active
+1. The system shall restart the game in tutorial level if the player crashes into the obstacle and presses the space key
+2. The system shall revert to main screen of the game if the player runs out of 3 lives.
+3. The system shall  display a scorebar in the middle of the screen while level play is active .
+4.The system shall display the remaining lives while level play is active.
 
 
 # Non-functional Requirements
