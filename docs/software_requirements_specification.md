@@ -23,6 +23,13 @@ Pridhvi M:
 3. Messages: Contains pop ups with some game information like score and help in navigation.
 4. The device must have a keyboard: To play the game the device must contain Keyboard.
 
+Adi J:
+
+1.Programing Language:  The game implemented with python script. The game must be developed in Unity 2D display, control, and Audio
+2. Platform: The game must be played on mobile, and computer and it is a combination of software and hardware.
+3. Levels: It is a level-based game, and it contains a total of 3 levels. The user completed level by level. They can develop their skills and go to the levelers.
+4. Use cases: The use cases are improving the player experiences and faster gameplay. Examples: Increase gameplay: Get some rewards and increase the lifetime.
+
 # Non-functional Requirements
 
 Jeremy W:
@@ -42,6 +49,13 @@ Pridhvi M:
 2. Software: It is about how the game is built in Python, Py-game.
 3. Performance: The performance is about how our computer will handle and display the games. And tell about what is the run time was.
 4. Safety of players: The safety of players is about protecting gamers and especially children from unnecessary ad's and content.
+
+Adi J:
+
+1. Display time: max time for processing the request should be 1 second or less. Then the game reacted quickly to our commands. And have a higher response time.
+2. Performance: The performance is about gameplay and experience of the game and the operating speed.
+3. Usability: Usability is about the condition of anything we can interact with the navigation and the user complete the game accurately.
+4. Maintainability: Maintainability is about if we fail anywhere in the game it can help to put back into the game.  And it deals with speed.
 
 
 
