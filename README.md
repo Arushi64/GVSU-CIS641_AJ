@@ -1,4 +1,4 @@
-# AAJP
+# Nostalgia Development
 
 We are planning to create a game that combines previously created 2D games from the early 2000s. So far, we are planning to incorporate our spin-off of Super Mario Bros, in addition to two other gameplay levels. The game is expected to have similar graphics to old games, with additional characters. We also plan to have various difficulities with each level to provide some challenge to the user.
 
