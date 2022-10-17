@@ -17,14 +17,12 @@ Arushi S:
 4.The system shall display the remaining lives while level play is active.
 
 Pridhvi M:
-
 1. Development platform:  The Development platform is a fundamental software the makes hardware work.
 2. Levels:  The game developed with levels and for each level increasing in complexity.
 3. Messages: Contains pop ups with some game information like score and help in navigation.
 4. The device must have a keyboard: To play the game the device must contain Keyboard.
 
 Adi J:
-
 1.Programing Language:  The game implemented with python script. The game must be developed in Unity 2D display, control, and Audio
 2. Platform: The game must be played on mobile, and computer and it is a combination of software and hardware.
 3. Levels: It is a level-based game, and it contains a total of 3 levels. The user completed level by level. They can develop their skills and go to the levelers.
