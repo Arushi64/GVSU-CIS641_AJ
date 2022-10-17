@@ -51,7 +51,6 @@ Pridhvi M:
 4. Safety of players: The safety of players is about protecting gamers and especially children from unnecessary ad's and content.
 
 Adi J:
-
 1. Display time: max time for processing the request should be 1 second or less. Then the game reacted quickly to our commands. And have a higher response time.
 2. Performance: The performance is about gameplay and experience of the game and the operating speed.
 3. Usability: Usability is about the condition of anything we can interact with the navigation and the user complete the game accurately.
