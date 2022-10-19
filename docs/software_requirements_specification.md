@@ -10,6 +10,7 @@ Jeremy W:
 2. The system shall allow an administrator to set time limits during each level of gameplay.
 3. The system shall allow a user to move/control a character during game play.
 4. The system shall detect a collision between the character and objects during gameplay. 
+5. The system shall allow the player to exit gameplay at any time.
 
 Arushi S:
 1. The system shall restart the game if the player dies.
