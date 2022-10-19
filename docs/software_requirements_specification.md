@@ -9,12 +9,13 @@ Jeremy W:
 1. The system shall allow a user to play as a character in the game.
 2. The system shall allow an administrator to set time limits during each level of gameplay.
 3. The system shall allow a user to move/control a character during game play.
+4. The system shall detect a collision between the character and objects during gameplay. 
 
 Arushi S:
 1. The system shall restart the game in tutorial level if the player crashes into the obstacle and presses the space key
 2. The system shall revert to main screen of the game if the player runs out of 3 lives.
 3. The system shall  display a scorebar in the middle of the screen while level play is active.
-4.The system shall display the remaining lives while level play is active.
+4. The system shall display the remaining lives while level play is active.
 
 Pridhvi M:
 1. Development platform:  The Development platform is a fundamental software the makes hardware work.
@@ -23,7 +24,7 @@ Pridhvi M:
 4. The device must have a keyboard: To play the game the device must contain Keyboard.
 
 Adi J:
-1.Programing Language:  The game implemented with python script. The game must be developed in Unity 2D display, control, and Audio
+1. Programing Language:  The game implemented with python script. The game must be developed in Unity 2D display, control, and Audio
 2. Platform: The game must be played on mobile, and computer and it is a combination of software and hardware.
 3. Levels: It is a level-based game, and it contains a total of 3 levels. The user completed level by level. They can develop their skills and go to the levelers.
 4. Use cases: The use cases are improving the player experiences and faster gameplay. Examples: Increase gameplay: Get some rewards and increase the lifetime.
