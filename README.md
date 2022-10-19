@@ -1,6 +1,6 @@
 # Nostalgia Development
 
-We are curreently developing a game that combines previously created 2D games from the 1990s. We are planning to incorporate our spin-off of Super Mario Bros, in addition to two other gameplay levels. The game is expected to have similar graphics to old games, with additional characters and our own game level design. We also plan to have various difficulities with each level to provide some challenge to the user.
+We are currently developing a game that combines previously created 2D games from the 1990s. We are planning to incorporate our spin-off of Super Mario Bros, in addition to two other gameplay levels. The game is expected to have similar graphics to old games, with additional characters and our own game level design. We also plan to have various difficulties with each level to provide some challenge to the user.
 
 ## Team Members and Roles
 
