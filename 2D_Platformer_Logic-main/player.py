@@ -5,7 +5,13 @@ class Player(pygame.sprite.Sprite):
 	def __init__(self,pos,groups,collision_sprites):
 		super().__init__(groups)
 		# self.image = pygame.Surface((TILE_SIZE // 2,TILE_SIZE))
-		self.image = pygame.image.load('C:/Users/arush/Downloads/UltimatePygameIntro-main/UltimatePygameIntro-main/graphics/frog_player.png').convert_alpha()
+		# self.image = pygame.image.load('C:/Users/arush/Downloads/UltimatePygameIntro-main/UltimatePygameIntro-main/graphics/frog_player.png').convert_alpha()
+		self.image = pygame.image.load('2D_Platformer_Logic-main/frog_player.png').convert_alpha()
+
+		
+
+
+
 
 		# self.image.fill(PLAYER_COLOR)
 		self.rect = self.image.get_rect(topleft = pos)
