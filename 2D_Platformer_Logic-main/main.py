@@ -16,6 +16,7 @@ clock = pygame.time.Clock()
 level = Level()
 world_offset = [0,0]
 
+
 def blit_all_tiles(window, tmxdata, world_offset):
 	for layer in tmxdata:
 		for tile in layer.tiles():
@@ -24,9 +25,6 @@ def blit_all_tiles(window, tmxdata, world_offset):
 			x_pixel = tile[0] * 70 + world_offset[0]
 			y_pixel = tile[1] * 70 + world_offset[1]
 			window.blit(tile[2],(x_pixel, y_pixel))
-
-def main5():
-	tmxdata = load_pygame("Levels\Level 1.tmx")
 
 
 while True:
@@ -37,7 +35,7 @@ while True:
 			sys.exit()
 	
 	screen.fill(BG_COLOR)
-	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("C:/Users/arush/OneDrive/Documents/GVSU/Fall 22/641/Github 641/GVSU-CIS641_AJ/Levels/Level 1.tmx"),world_offset =[0,0])
+	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("2D_Platformer_Logic-main/2D_Platformer_Logic-main/2D Platformer Logic/Level 1.tmx"),world_offset =[0,0])
 	level.run()
 	
 
