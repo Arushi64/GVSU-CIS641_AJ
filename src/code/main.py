@@ -26,6 +26,16 @@ FPS = 60
 test_surface = pygame.Surface((10,20))
 test_surface.fill('Purple')
 
+def blit_all_tiles(window, tmxdata, world_offset):
+	for layer in tmxdata:
+		for tile in layer.tiles():
+			#tile[0]...x grid location
+			#tile[1]...y grid location
+			#tiles[2]...image data for blitting
+			x_pixel = tile[0] * 64 + world_offset[0]
+			y_pixel = tile[1] * 64 + world_offset[1]
+			window.blit(tile[2], (x_pixel, y_pixel))
+
 
 
 while True:
@@ -35,7 +45,7 @@ while True:
 			sys.exit()
 	
 	window.fill(color1)
-	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("2D_Platformer_Logic-main/Level 1.tmx"),world_offset =[0,0])
+	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/0/level_0.tmx"),world_offset =[0,0])
 
 	level.run()
 
