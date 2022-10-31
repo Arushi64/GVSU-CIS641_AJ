@@ -13,7 +13,7 @@ pygame.init()
 screen = pygame.display.set_mode((800,400))
 pygame.display.set_caption('Nostalgia')
 clock = pygame.time.Clock()
-test_font = pygame.font.Font('UltimatePygameIntro-main//font/Pixeltype.ttf', 50)
+test_font = pygame.font.Font('C:/Users/arush/OneDrive/Documents/GVSU/Fall 22/641/Github 641/GVSU-CIS641_AJ/src/font/Pixeltype.ttf', 50)
 game_active = True
 fps = 60
 start_time = 0
