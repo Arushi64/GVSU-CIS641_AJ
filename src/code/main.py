@@ -45,8 +45,9 @@ while True:
 			sys.exit()
 	
 	window.fill(color1)
-	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("C:/Users/arush/Downloads/2D-Mario-style-platformer-main/2 - Level/2 - Level/levels/level_data/level_0.tmx"),world_offset =[0,0])
+	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("C:/Users/arush/OneDrive/Documents/GVSU/Fall 22/641/Github 641/GVSU-CIS641_AJ/Levels/Level 1.tmx"),world_offset =[0,0])
 
+	# blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("C:/Users/arush/Downloads/2D-Mario-style-platformer-main/2 - Level/2 - Level/levels/level_data/level_0.tmx"),world_offset =[0,0])
 	level.run()
 
 	pygame.display.update()
