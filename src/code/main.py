@@ -37,6 +37,31 @@ def blit_all_tiles(window, tmxdata, world_offset):
 			window.blit(tile[2], (x_pixel, y_pixel))
 
 
+class TiledMap:
+	def __init__(self, filename):
+		tm = pytmx.load_pygame(filename, pixelalpha=True)
+		self.width = tm.width * tm.tilewidth
+		self.height = tm.height * tm.tileheight
+		self.tmxdata = tm
+
+	def render(self, surface):
+		ti = self.tmxdata.get_tile_image_by_gid
+		for layer in self.tmxdata.visible_layers:
+			if isinstance(layer, pytmx.TiledTIleLayer):
+				for x, y, gid, in layer:
+					tile = ti(gid)
+					if tile:
+						surface.blit(tile, (x * self.tmxdata.tilewidth, y * self.tmxdata))
+
+def make_map(self):
+	temp_surface = pg.pygame.Surface.Surface((self.width, self.height))
+	self.render(temp_surface)
+	return temp_surface
+
+try:
+    blit_all_tiles()
+except:
+    print("exception happened!")
 
 while True:
 	for event in pygame.event.get():
@@ -45,11 +70,13 @@ while True:
 			sys.exit()
 	
 	window.fill(color1)
-	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/1/Level 1_Export.tmx"),world_offset =[0,0])
+	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/1/Tileset [Levels]/Level 1_Export.tmx"),world_offset =[0,0])
 	level.run()
+	
 
 	pygame.display.update()
 	clock.tick(FPS)
+
 
 
 
