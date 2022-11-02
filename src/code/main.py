@@ -58,10 +58,7 @@ def make_map(self):
 	self.render(temp_surface)
 	return temp_surface
 
-try:
-    blit_all_tiles()
-except:
-    print("exception happened!")
+
 
 while True:
 	for event in pygame.event.get():
@@ -70,7 +67,7 @@ while True:
 			sys.exit()
 	
 	window.fill(color1)
-	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/1/Tileset [Levels]/Level 1_Export.tmx"),world_offset =[0,0])
+	blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/Level_1_Tiled/Test_Level_1.tmx"),world_offset =[0,0])
 	level.run()
 	
 
