@@ -101,7 +101,7 @@ while True:
     # else:
     #     screen.fill('grey')
 
-    blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/Level_1_Tiled/Test_Level_1.tmx"),world_offset =[0,0])
+    blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("C:/Users/arush/OneDrive/Documents/GVSU/Fall 22/641/Github 641/GVSU-CIS641_NostalgiaDevelopment/src/code/tutorial/level_0.tmx"),world_offset =[0,0])
 
 
     pygame.display.update()
