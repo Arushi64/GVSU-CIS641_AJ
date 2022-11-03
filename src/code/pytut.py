@@ -1,4 +1,6 @@
 import pygame
+import pytmx
+from pytmx.util_pygame import load_pygame
 
 def display_score():
     current_time =int( pygame.time.get_ticks()/ 1000)- start_time
@@ -13,7 +15,7 @@ pygame.init()
 screen = pygame.display.set_mode((800,400))
 pygame.display.set_caption('Nostalgia')
 clock = pygame.time.Clock()
-test_font = pygame.font.Font('C:/Users/arush/OneDrive/Documents/GVSU/Fall 22/641/Github 641/GVSU-CIS641_AJ/src/font/Pixeltype.ttf', 50)
+test_font = pygame.font.Font('C:/Users/arush/OneDrive/Documents/GVSU/Fall 22/641/Github 641/GVSU-CIS641_NostalgiaDevelopment/src/font/Pixeltype.ttf', 50)
 game_active = True
 fps = 60
 start_time = 0
@@ -35,6 +37,16 @@ snail_rect = snail_surface.get_rect(bottomright = (600,300)) #position
 player_surf = pygame.image.load('C:/Users/arush/Downloads/UltimatePygameIntro-main/UltimatePygameIntro-main/graphics/player/player_walk_1.png').convert_alpha()
 player_rect = player_surf.get_rect(midbottom = (80,300))
 player_gravity = 0 
+
+def blit_all_tiles(window, tmxdata, world_offset):
+	for layer in tmxdata:
+		for tile in layer.tiles():
+			#tile[0]...x grid location
+			#tile[1]...y grid location
+			#tiles[2]...image data for blitting
+			x_pixel = tile[0] * 64 + world_offset[0]
+			y_pixel = tile[1] * 64 + world_offset[1]
+			window.blit(tile[2], (x_pixel, y_pixel))
 
 
 
@@ -88,6 +100,9 @@ while True:
             game_active = False
     # else:
     #     screen.fill('grey')
+
+    blit_all_tiles(window = pygame.display.set_mode((1280, 720)),tmxdata = load_pygame("src/code/Level_1_Tiled/Test_Level_1.tmx"),world_offset =[0,0])
+
 
     pygame.display.update()
     clock.tick(fps)
