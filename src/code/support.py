@@ -6,11 +6,11 @@ from csv import reader
 
 
 def import_csv_layout(path):
-    terrain_map = []
+    game_data = []
     # map is a variable that stores the csv we import
-    with open(path) as map:
+    with open(path) as game_data:
           #use reader method for csv file(stored in variable map)
-        level = reader(map, delimiter = ',')
+        level = reader(game_data, delimiter = ',')
         for row in level:
-            terrain_map.append(list(row))
-        return terrain_map
+            game_data.append(list(row))
+        return game_data

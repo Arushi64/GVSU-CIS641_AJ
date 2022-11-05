@@ -25,7 +25,7 @@ while True:
             exit()
 
     #defines the position of the new regular surface
-    window.blit(test_surface,(400,10))
+    window.blit('src/code/Level_1_Tiled/Test_Level_1.tmx',(400,10))
     pygame.display.update()
     clock.tick(FPS)
 
