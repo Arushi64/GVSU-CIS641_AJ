@@ -26,7 +26,7 @@ class Player(pygame.sprite.Sprite):
             full_path = character_path + animation
             self.animations[animation] = import_folder(full_path)
 
-    #def animate(self):
+    def animate(self):
         animation  = self.animations['idle']
 
     # loop over frame index
