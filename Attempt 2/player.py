@@ -23,9 +23,8 @@ class Player(pygame.sprite.Sprite):
             self.facing_right = False
         else:
             self.direction.x = 0
-        if keys[pygame.K_SPACE] and self.on_ground:
+        if keys[pygame.K_SPACE]:
             self.jump()
-            self.create_jump_particles(self.rect.midbottom)
     
     def apply_gravity(self):
         self.direction.y += self.gravity

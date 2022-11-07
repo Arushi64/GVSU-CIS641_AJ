@@ -6,7 +6,7 @@ import random
 pygame.init()
 
 #game window dimensions
-SCREEN_HEIGHT = 500
+SCREEN_HEIGHT = 1200
 SCREEN_WIDTH = 160
 
 #set frame rate
@@ -96,7 +96,7 @@ class Water(pygame.sprite.Sprite):
 
 
 #Player instance
-mario_image = Player(SCREEN_WIDTH // 9, SCREEN_HEIGHT - 890)
+mario_image = Player(SCREEN_WIDTH // 9, SCREEN_HEIGHT - 1200)
 
 #create sprite groups
 water_group = pygame.sprite.Group()
