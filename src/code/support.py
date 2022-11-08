@@ -1,16 +1,14 @@
-from csv import reader
+from os import walk
+import pygame
 
-# since we are going to be importing multiple levels from csv files
-# we are creating a function to import multiple csv files from different 
-# paths this function will be called in level.py
+def import_folder(path):
+    surface_list = []
 
+    for _, __, img_files in walk(path):
+        for image in img_files:
+            full_path = path + '/' + image
+        if image != '.DS_Store': #if the filename is not .DS_Store then do the following
+            image_surf = pygame.image.load(full_path).convert_alpha()
+            surface_list.append(image_surf)
 
-def import_csv_layout(path):
-    game_data = []
-    # map is a variable that stores the csv we import
-    with open(path) as game_data:
-          #use reader method for csv file(stored in variable map)
-        level = reader(game_data, delimiter = ',')
-        for row in level:
-            game_data.append(list(row))
-        return game_data
+    return surface_list

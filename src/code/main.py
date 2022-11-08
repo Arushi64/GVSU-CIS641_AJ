@@ -1,51 +1,24 @@
-import pygame
-import sys
+import pygame, sys
 from settings import *
+from tiles import Tile
 from level import Level
-import csv
-# from support import import_csv_layout
-from game_data import Test_Level_1
-from tiles import *
-import pytmx
-from pytmx.util_pygame import load_pygame
 
-# not using specs below- instead using specs declared in settings.py
-# width, height = 1280, 720
+# Pygame setup
 pygame.init()
-window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.init()
-screen = pygame.display.set_mode((1024,768))
+screen = pygame.display.set_mode((screen_width, screen_height))
 clock = pygame.time.Clock()
-level = Level(Test_Level_1,screen)
+test_tile = pygame.sprite.Group(Tile((100, 100), 200))
+level = Level(level_map, screen)
 
 while True:
-	for event in pygame.event.get():
-		if event.type == pygame.QUIT:
-			pygame.quit()
-			sys.exit()
-	
-	if save_button.draw(screen):
-		with open(f'level{Test_Level_1}_data.csv', 'w', newline='') as csvfile:
-			writer = csv.writer(csvfile, delimiter=',')
-			for row in world_data:
-				writer.writerow(row)
-	load_button.draw(screen)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
 
-	screen.fill('grey')
-	level.run()
+    screen.fill('black')
+    level.run()
 
-	pygame.display.update()
-	clock.tick(60)
-
-
-
-
-
-
-
-
-
-# ensures main can only be run from this file and cannotbe imported
-if __name__ == "__main__":
-    main()
+    pygame.display.update()
+    clock.tick(60)
 
