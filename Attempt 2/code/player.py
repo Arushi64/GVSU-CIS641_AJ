@@ -19,7 +19,7 @@ class Player(pygame.sprite.Sprite):
         self.jump_spped = -16
 
     def import_character_assets(self):
-        character_path = './Attempt 2/code/character/'
+        character_path = f'./Attempt 2/code/character/'
         self.animations = {'fall':[], 'idle':[], 'jump':[], 'run':[]}
 
         for animation in self.animations.keys():
