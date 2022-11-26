@@ -1,1 +1,0 @@
-level_0 = {'terrain': 'src/code/levels/0/level_0_terrain.csv','coins': 'src/code/levels/0/level_0_coins.csv','bg bush': 'src/code/levels/0/level_0_bg.bush.csv','constraints': 'src/code/levels/0/level_0_constraints.csv','enemies': 'src/code/levels/0/level_0_enemies.csv','fg trees': 'src/code/levels/0/level_0_fg.trees.csv','player': 'src/code/levels/0/level_0_player.csv'}
