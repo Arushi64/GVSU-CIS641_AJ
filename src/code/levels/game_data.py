@@ -32,7 +32,7 @@ level_2 = {
     'coins': 'src/code/levels/0/level_0_coins.csv',
     'bg palms': 'src/code/levels/0/level_0_bg_palms.csv',
     'node_pos': (480,610),
-    'unlock': 1,
+    'unlock': 3,
     'node_graphics': 'src/code/levels/graphics/overworld/2'}
 level_3 = {
     'terrain': 'src/code/levels/0/level_0_terrain.csv',
@@ -43,8 +43,8 @@ level_3 = {
     'constraints': 'src/code/levels/0/level_0_constraints.csv',
     'coins': 'src/code/levels/0/level_0_coins.csv',
     'bg palms': 'src/code/levels/0/level_0_bg_palms.csv',
-    'node_pos': (110,400),
-    'unlock': 3,
+    'node_pos': (610,350),
+    'unlock': 4,
     'node_graphics': 'src/code/levels/graphics/overworld/3'}
 level_4 = {
     'terrain': 'src/code/levels/0/level_0_terrain.csv',
@@ -56,7 +56,7 @@ level_4 = {
     'coins': 'src/code/levels/0/level_0_coins.csv',
     'bg palms': 'src/code/levels/0/level_0_bg_palms.csv',
     'node_pos': (880,210),
-    'unlock': 4,
+    'unlock': 5,
     'node_graphics': 'src/code/levels/graphics/overworld/4'}
 level_5 = {
     'terrain': 'src/code/levels/0/level_0_terrain.csv',
@@ -77,4 +77,4 @@ levels = {
     2: level_2,
     3: level_3,
     4: level_4,
-    5: level_5,}
+    5: level_5}

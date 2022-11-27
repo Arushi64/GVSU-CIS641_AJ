@@ -69,7 +69,7 @@ class Overworld:
                 node_sprite = Node(node_data['node_pos'], 'available', self.speed, node_data['node_graphics'])
             else:
                 node_sprite = Node(node_data['node_pos'], 'locked', self.speed, node_data['node_graphics'])
-            self.nodes.add(node_sprite)
+                self.nodes.add(node_sprite)
 
     def draw_paths(self):
         if self.max_level > 0:
