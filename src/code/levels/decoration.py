@@ -6,9 +6,9 @@ from random import choice, randint
 
 class Sky:
     def __init__(self, horizon, style = 'level'):
-        self.top = pygame.image.load('src/code/levels/graphics/decoration/sky/sky_top.png').convert()
-        self.bottom = pygame.image.load('src/code/levels/graphics/decoration/sky/sky_bottom.png').convert()
-        self.middle = pygame.image.load('src/code/levels/graphics/decoration/sky/sky_middle.png').convert()
+        self.top = pygame.image.load('src/code/levels/graphics/decoration/sky/sky_top.png').convert_alpha()
+        self.bottom = pygame.image.load('src/code/levels/graphics/decoration/sky/sky_bottom.png').convert_alpha()
+        self.middle = pygame.image.load('src/code/levels/graphics/decoration/sky/sky_middle.png').convert_alpha()
         self.horizon = horizon
 
         # stretch
