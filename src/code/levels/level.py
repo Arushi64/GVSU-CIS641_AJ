@@ -131,7 +131,7 @@ class Level:
                         sprite = Player((x, y), change_health)
                         self.player.add(sprite)
                     if val == '1':
-                        hat_surface = pygame.image.load('src/code/character/hat.png').convert_alpha()
+                        hat_surface = pygame.image.load('src/code/levels/graphics/overworld/peach.png').convert_alpha()
                         sprite = StaticTile(tile_size, x, y, hat_surface)
                         self.goal.add(sprite)
 
@@ -262,8 +262,9 @@ class Level:
         self.fg_palm_sprites.draw(self.display_surface)
 
         # coins
-        self.coin_sprites.update(self.world_shift)
+        #self.coin_sprites.update(self.world_shift)
         self.coin_sprites.draw(self.display_surface)
+        self.coin_sprites.update(self.world_shift)
 
         # player sprites
         self.player.update()
