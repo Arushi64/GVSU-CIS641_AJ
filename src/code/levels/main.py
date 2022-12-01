@@ -45,9 +45,9 @@ class Game:
             self.overworld = Overworld(0, self.max_level, screen, self.create_level)
             self.status = 'overworld'
 
-
     def run(self):
         if self.status == 'overworld':
+            self.cur_health = 100
             self.overworld.run()
         else:
             self.level.run()
