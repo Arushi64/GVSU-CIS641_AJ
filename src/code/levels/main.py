@@ -45,10 +45,6 @@ class Game:
             self.overworld = Overworld(0, self.max_level, screen, self.create_level)
             self.status = 'overworld'
 
-    def reset_health(self):
-        if self.status == 'overworld' and self.cur_health <= 0:
-            self.cur_health = 100
-
 
     def run(self):
         if self.status == 'overworld':
@@ -79,3 +75,4 @@ while True:
     pygame.display.update()
     clock.tick(60)
 
+ 
