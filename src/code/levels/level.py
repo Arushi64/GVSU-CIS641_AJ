@@ -15,6 +15,10 @@ class Level:
         self.world_shift = 0
         self.current_x = None
 
+        #audio 
+        self.coin_sound = pygame.mixer.Sound(r'src/code/levels/audio/effects/coin.wav')
+        self.stomp_sound = pygame.mixer.Sound(r'src/code/levels/audio/effects/stomp.wav')
+
         # overworld connection
         self.create_overworld = create_overworld
         self.current_level = current_level
@@ -203,7 +207,6 @@ class Level:
     def check_death(self):
         if self.player.sprite.rect.top > screen_height:
             self.create_overworld(self.current_level, 0)
-
     
     def check_win(self):
         if pygame.sprite.spritecollide(self.player.sprite, self.goal, False):
@@ -212,6 +215,7 @@ class Level:
     def check_coin_collisions(self):
         collided_coins = pygame.sprite.spritecollide(self.player.sprite, self.coin_sprites, True)
         if collided_coins:
+            self.coin_sound.play()
             for coin in collided_coins:
                 self.change_coins(coin.value)
 
@@ -224,6 +228,7 @@ class Level:
                 enemy_top = enemy.rect.top
                 player_bottom = self.player.sprite.rect.bottom
                 if enemy_top < player_bottom < enemy_center and self.player.sprite.direction.y >= 0:
+                    self.stomp_sound.play()
                     self.player.sprite.direction.y = -15
                     explosion_sprite = ParticleEffect(enemy.rect.center, 'explosion')
                     self.explosion_sprites.add(explosion_sprite)
@@ -285,3 +290,4 @@ class Level:
 
         # water
         self.water.draw(self.display_surface, self.world_shift)
+
