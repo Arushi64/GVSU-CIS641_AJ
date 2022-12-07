@@ -165,7 +165,7 @@ class Level:
         # commented out 10.51 am, rect is static so dont have to update origin point    
         # if player.on_left and (player.rect.left < self.current_x or player.direction.x >= 0):
         #     player.on_left = False
-        # if player.on_right and (player.rect.right < self.current_x or player.direction.x <= 0):
+        # if player.on_right and (player.rect.right < self.current_x or player.direction.x <= 0): 
         #     player.on_right = False
 
 
@@ -186,7 +186,7 @@ class Level:
                 elif player.direction.y < 0:
                     #chnaged player.rect in first half to player.collision_rect
                     player.collision_rect.top = sprite.rect.bottom
-                    player.direction.y = 0
+                    player.direction.y = 1
                     player.on_ceiling = True
 				
         if player.on_ground and player.direction.y < 0 or player.direction.y > 1:
