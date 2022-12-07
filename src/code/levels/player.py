@@ -18,6 +18,8 @@ class Player(pygame.sprite.Sprite):
         self.speed = 8
         self.gravity = 0.8
         self.jump_speed = -16
+        # added 10.41am
+        self.collision_rect = pygame.Rect(self.rect.topleft,(50,self.rect.height))
 
         # player status
         self.status = 'idle'
@@ -54,12 +56,18 @@ class Player(pygame.sprite.Sprite):
         self.frame_index += self.animation_speed
         if self.frame_index >= len(animation):
             self.frame_index = 0
+
         image = animation[int(self.frame_index)]
         if self.facing_right:    
             self.image = image
+            #added 10.44am
+            self.rect.bottomleft = self.collision_rect.bottomleft
         else:
             flipped_image = pygame.transform.flip(image, True, False)
             self.image = flipped_image
+            #added 10.44am
+            self.rect.bottomright = self.collision_rect.bottomright
+
 
         if self.invincible:
             alpha = self.wave_value()
@@ -67,19 +75,19 @@ class Player(pygame.sprite.Sprite):
         else:
             self.image.set_alpha(255)
 
-        # set the rect
-        if self.on_ground and self.on_right:
-            self.rect = self.image.get_rect(bottomright = self.rect.bottomright)
-        elif self.on_ground and self.on_left:
-            self.rect = self.image.get_rect(bottomleft = self.rect.bottomleft)
-        elif self.on_ground:
-            self.rect = self.image.get_rect(midbottom = self.rect.midbottom) 
-        elif self.on_ceiling and self.on_right:
-            self.rect = self.image.get_rect(topright = self.rect.topright)
-        elif self.on_ceiling and self.on_left:
-            self.rect = self.image.get_rect(topleft = self.rect.topleft)
-        elif self.on_ceiling:
-            self.rect = self.image.get_rect(midtop = self.rect.midtop)                    
+        # # set the rect- comeneted out 10.42am
+        # if self.on_ground and self.on_right:
+        #     self.rect = self.image.get_rect(bottomright = self.rect.bottomright)
+        # elif self.on_ground and self.on_left:
+        #     self.rect = self.image.get_rect(bottomleft = self.rect.bottomleft)
+        # elif self.on_ground:
+        #     self.rect = self.image.get_rect(midbottom = self.rect.midbottom) 
+        # elif self.on_ceiling and self.on_right:
+        #     self.rect = self.image.get_rect(topright = self.rect.topright)
+        # elif self.on_ceiling and self.on_left:
+        #     self.rect = self.image.get_rect(topleft = self.rect.topleft)
+        # elif self.on_ceiling:
+        #     self.rect = self.image.get_rect(midtop = self.rect.midtop)                    
 
 
 
@@ -112,6 +120,8 @@ class Player(pygame.sprite.Sprite):
     def apply_gravity(self):
         self.direction.y += self.gravity
         self.rect.y += self.direction.y
+        # added 10.46am
+        self.collision_rect.y += self.direction.y
 
     def jump(self):
         self.direction.y = self.jump_speed
