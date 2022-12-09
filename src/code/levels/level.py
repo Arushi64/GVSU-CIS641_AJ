@@ -146,24 +146,27 @@ class Level:
 
     def horizontal_movement_collision(self):
         player = self.player.sprite
-        player.rect.x += player.direction.x * player.speed
+        #changed 10.48am changed player.rect.x to player.collision_rect.x
+        player.collision_rect.x += player.direction.x * player.speed
         collidable_sprites = self.terrain_sprites.sprites() + self.crate_sprites.sprites() + self.fg_palm_sprites.sprites()
 
         for sprite in collidable_sprites:
-            if sprite.rect.colliderect(player.rect):
+            #chnaged player.rect to player.collision_rect
+            if sprite.rect.colliderect(player.collision_rect):
                 if player.direction.x < 0: 
-                    player.rect.left = sprite.rect.right
+                    player.collision_rect.left = sprite.rect.right
                     player.on_left = True
                     self.current_x = player.rect.left
                 elif player.direction.x > 0:
-                    player.rect.right = sprite.rect.left
+                    player.collision_rect.right = sprite.rect.left
                     player.on_right = True
                     self.current_x = player.rect.right
             
-        if player.on_left and (player.rect.left < self.current_x or player.direction.x >= 0):
-            player.on_left = False
-        if player.on_right and (player.rect.right < self.current_x or player.direction.x <= 0):
-            player.on_right = False
+        # commented out 10.51 am, rect is static so dont have to update origin point    
+        # if player.on_left and (player.rect.left < self.current_x or player.direction.x >= 0):
+        #     player.on_left = False
+        # if player.on_right and (player.rect.right < self.current_x or player.direction.x <= 0): 
+        #     player.on_right = False
 
 
 
@@ -174,20 +177,23 @@ class Level:
 
 
         for sprite in collidable_sprites:
-            if sprite.rect.colliderect(player.rect):
+            if sprite.rect.colliderect(player.collision_rect):
                 if player.direction.y > 0: 
-                    player.rect.bottom = sprite.rect.top
+                    #chnaged player.rect in first half to player.collision_rect
+                    player.collision_rect.bottom = sprite.rect.top
                     player.direction.y = 0
                     player.on_ground = True
                 elif player.direction.y < 0:
-                    player.rect.top = sprite.rect.bottom
+                    #chnaged player.rect in first half to player.collision_rect
+                    player.collision_rect.top = sprite.rect.bottom
                     player.direction.y = 0
                     player.on_ceiling = True
 				
         if player.on_ground and player.direction.y < 0 or player.direction.y > 1:
             player.on_ground = False
-        if player.on_ceiling and player.direction.y > 0:
-            player.on_ceiling = False
+        #commented out 10.52am
+        # if player.on_ceiling and player.direction.y > 0:
+        #     player.on_ceiling = False
 
     def scroll_x(self):
         player = self.player.sprite
