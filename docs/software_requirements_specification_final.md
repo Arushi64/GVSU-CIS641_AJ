@@ -169,9 +169,8 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | MainCharacter | CollectCoins | FR31, NFR31, FR35 |
-| MainCharacter | Move(Actions) | FR9,FR10,NFR9-NFR10 |
-| MainCharacter | TravereseGame |FR22-FR26,FR11-FR17 |
-| … | … | … |
+| MainCharacter | Move(Actions) | FR9-10, NFR9-10 |
+| MainCharacter | TravereseGame | FR22-26, NFR22-26, FR11-17, NFR11-17 |
 
 | … | … | … |
 
