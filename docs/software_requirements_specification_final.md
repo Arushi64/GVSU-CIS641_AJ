@@ -164,7 +164,7 @@ Following these steps will ensure that users can enjoy this game on any operatin
 
 <Description of this section>
 
-## Use Case Diagram Traceability
+## Use Case Diagram #1 Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
@@ -172,7 +172,14 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | MainCharacter | Move(Actions) | FR9-10, NFR9-10 |
 | MainCharacter | TravereseGame | FR22-26, NFR22-26, FR11-17, NFR11-17 |
 
-| … | … | … |
+## Use Case Diagram #2 Traceability
+
+| Artifact ID  | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| MainCharacter | LoseHealth | FR18, NFR18, FR27, NFR27 |
+| MainCharacter | EnemyInteraction | FR4, NFR4 |
+
+
 
 
 ## Class Diagram Traceability
