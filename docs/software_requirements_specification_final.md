@@ -7,7 +7,7 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 # Software Requirements
 
-The software requirements describe what our game will do and how it is expected to perform. There is a total of 50 requirements that have been laid out. Out of the 50 requirements, there are 25 function and 25 non-functional requirements. 
+The software requirements describe what our game will do and how it is expected to perform. There is a total of 50 requirements that have been laid out. Out of the 50 requirements, there are 25 function and 25 non-functional requirements with 5 differing categories.
 
 ## Functional Requirements
 
