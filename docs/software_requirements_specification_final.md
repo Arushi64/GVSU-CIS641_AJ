@@ -35,31 +35,46 @@ The software requirements describe what our game will do and how it is expected 
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR11 | The overworld window shall open when the main.py file is executed |
-| FR12 | The first level shall open when the space bar is pressed from the overworld window |
-| FR13 | The second level shall open when the first level is completed and space bar is pressed in overworld |
-| FR14 | The third level shall open when the first level is completed and space bar is pressed in overworld |
-| FR15 | The fourth level shall open when the first level is completed and space bar is pressed in overworld |
-| FR16 | The fifth level shall open when the first level is completed and space bar is pressed in overworld |
+| FR11 | The first level shall open when the space bar is pressed from the overworld window |
+| FR12 | The second level shall open when the first level is completed and space bar is pressed in overworld |
+| FR13 | The third level shall open when the first level is completed and space bar is pressed in overworld |
+| FR14 | The fourth level shall open when the first level is completed and space bar is pressed in overworld |
+| FR15 | The fifth level shall open when the first level is completed and space bar is pressed in overworld |
+| FR16 | The game shall exit the level and return to overworld when a player death occurs |
+| FR17 | The game shall exit the level and return to overworld when a player win occurs |
+| FR18 | The game shall reset player health and return to the overworld when a player death occurs |
+| FR19 | The game window shall have a fixed screen height |
+| FR20 | The game window shall have a fixed screen width |
 
 
-### Sprites
+### Tiles
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR4 | <Requirement 1> |
-| FR5 | <Requirement 2> |
-| FR6 | <Requirement 3> |
-| … | … |
+| FR21 | All tiles used in game window shall be the same size |
+
 
 ### Overworld
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR4 | <Requirement 1> |
-| FR5 | <Requirement 2> |
-| FR6 | <Requirement 3> |
-| … | … |
+| FR22 | The overworld shall allow the player to navigate unlocked levels |
+| FR23 | The overworld levels shall have a fixed position |
+| FR24 | The overworld shall have a unqiue graphic for each level |
+| FR25 | The overworld window shall open when the main.py file is executed |
+| FR26 | The overworld shall close once a player selects the exit button on the window |
+
+### User Interface
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR27 | The health bar shall update during gameplay |
+| FR28 | The health bar shall have a fixed position |
+| FR29 | The health bar shall have a fixed height |
+| FR30 | The health bar shall have a fixed width |
+| FR31 | The coin count shall update |
+| FR32 | The coin count shall have a fixed position |
+
 
 ## Non-Functional Requirements
 
@@ -87,11 +102,44 @@ The software requirements describe what our game will do and how it is expected 
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR11 | The game shall run at 60 FPS |
-| NFR12 | The level.py file shall update graphics from game_data.py during gameplay within half a second |
-| NFR13 | The level.py file shall draw graphics from game_data.py during gameplay within half a second |
-| NFR14 | The level.py file shall update the player direction leftward when the left key is pressed within a second |
-| NFR15 | The level.py file shall update the player direction rightward when the right key is pressed within a second |
+| NFR11 | The first level shall load within five seconds when the space bar is pressed from the overworld window |
+| NFR12 | The second level shall load within five seconds when the first level is completed and space bar is pressed in overworld |
+| NFR13 | The third level shall load within five seconds when the first level is completed and space bar is pressed in overworld |
+| NFR14 | The fourth level shall load within five seconds when the first level is completed and space bar is pressed in overworld |
+| NFR15 | The fifth level shall load within five seconds when the first level is completed and space bar is pressed in overworld |
+| NFR16 | The game shall exit the level and return to overworld when a player death occurs within five seconds |
+| NFR17 | The game shall exit the level and return to overworld when a player win occurs within five seconds |
+| NFR18 | The game shall reset player health and return to the overworld when a player death occurs within five seconds |
+| NFR19 | The game window shall have a fixed screen height of of 768 pixels |
+| NFR20 | The game window shall have a fixed screen width of 1280 pixels |
+
+### Tiles
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| NFR21 | All tiles used in game window shall have a tile size of 64x64 pixels |
+
+### Overworld
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| NFR22 | The overworld level one shall have a fixed node posiiton of (110, 400) |
+| NFR23 | The overworld level two shall have a fixed node posiiton of (300, 220) |
+| NFR24 | The overworld level three shall have a fixed node posiiton of (480, 610) |
+| NFR25 | The overworld level four shall have a fixed node posiiton of (610, 350) |
+| NFR26 | The overworld level five shall have a fixed node posiiton of (880, 210) |
+
+### User Interface
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| NFR27 | The health bar shall adjust by a ratio of current health divided by original health |
+| NFR28 | The health bar shall have a fixed x and y position of (54, 30) |
+| NFR29 | The health bar shall have a fixed height of 4 pixels |
+| NFR30 | The health bar shall have a fixed width of 152 pixels |
+| NFR31 | The coin count shall increase by 1 when player interacts with coins |
+| NFR32 | The coin count shall have a fixed position x and y position of (50, 51) |
+
 
 
 
