@@ -9,7 +9,7 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 <Describe the structure of this section>
 
-##Functional Requirements
+## Functional Requirements
 
 ### <Name of Feature 1> 
 
