@@ -168,7 +168,11 @@ Following these steps will ensure that users can enjoy this game on any operatin
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
+| MainCharacter | CollectCoins | FR31, NFR31, FR35 |
+| MainCharacter | Move(Actions) | FR9,FR10,NFR9-NFR10 |
+| MainCharacter | TravereseGame |FR22-FR26,FR11-FR17 |
+| … | … | … |
+
 | … | … | … |
 
 
@@ -177,6 +181,15 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
 | classPlayer | NFR3, FR5 |
+| … | … | … |
+
+## Activity Diagram Traceability
+
+<In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
+
+| Artifact ID  | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| <filename> | Handle Player Input | FR1-5, NFR2 |
 | … | … | … |
 
 
