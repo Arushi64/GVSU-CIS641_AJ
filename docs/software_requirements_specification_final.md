@@ -78,4 +78,4 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 Software Artifacts folder holds the artifacts which were created throughout the development of this game to help us visualize the requiremnents. These artifacts contain UML charts, class diagrams, use case diagrams, as well as a Gantt chart which we used to plan our project timeline out with.
 
-* ![Software Artifacts](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts)
+* [Software Artifacts](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts)
