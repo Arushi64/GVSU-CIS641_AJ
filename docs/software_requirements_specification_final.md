@@ -140,12 +140,25 @@ The software requirements describe what our game will do and how it is expected 
 | NFR31 | The coin count shall increase by 1 when player interacts with coins |
 | NFR32 | The coin count shall have a fixed position x and y position of (50, 51) |
 
-
-
-
 # Change management plan
 
-<Description of what this section is>
+Nowadays, consumers are a click away from downloading a game from an app store. So why play our game? Nostalgia development incorporates a user-friendly experience with a touch of nostalgia. Have you ever missed old 2D platformer games such as Super Mario Bros!, Dangerous Dave, and Sonic? Nostalgia Developments swing on old 2D platformer games and bring back a sense of joy with familiar characters such as Princess Peach and Mario while incorporating new graphics, audio, and enemies.
+
+The gameplay is so simple that you could even teach your Grandmother to use the program! Users are only required to use three keys: the left, the right, and the spacebar keys. The left and right keys will allow the player to move left and rightward during gameplay and allow for level selection once a level is unlocked in the overworld. The spacebar will enable users to select their desired level in the overworld and let players jump during level gameplay.  
+
+Users of our game can download a .zip file containing all the necessary files to run it on their computers. All users are expected to download this file and access the main.py file through the following path: src/code/levels/main.py. Once users run the main.py file, they will be greeted with an overworld experience containing five unique gameplay levels. All users are required to do is the following:
+
+1. Access our GitHub Repository here: https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment
+2. Click on the code button and download .zip
+3. Extract the files from .zip folder
+4. Download Python onto users computer here: https://www.python.org/downloads/
+5. Download Visual Studio Code (VSC) onto users computer here: https://code.visualstudio.com/download
+6. Navigate to the main.py file using VSC following this path: src/code/levels/main.py
+7. Select the 'play/run' button on the top right of VSC
+8. Enjoy!
+
+Following these steps will ensure that users can enjoy this game on any operating system or ecosystem. Suppose users have any suggestions or experience any issues during gameplay/installation. In that case, they will be able to contact us directly through our GitHub Repository for advice and troubleshooting by accessing the file called 'Contact Us.'
+
 
 # Traceability links
 
