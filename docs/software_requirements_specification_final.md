@@ -1,15 +1,15 @@
 # Overview
 
-<The purpose of the game Nostalgia Development created is to provide users with a sense of nostalgia. The game is designed to highlight similar features
+The purpose of the game Nostalgia Development created is to provide users with a sense of nostalgia. The game is designed to highlight similar features
 that many users found enjoyable in various Mario 2D platformers from the late 1990s and early 2000s. Nostalgia Development developed a game that
 roped in familiar elements of 2D platformers but also included familiar characters that would bring forth nostalgia for users. This platformer
-has 50 requirements, precisely 25 functions and 25 non-functional. These requirements can be found in the requirements file and also seen below. Nostalgia Developments platformer will be available on oue website, where users can interact with the five currently developed levels.>
+has 50 requirements, precisely 25 functions and 25 non-functional. These requirements can be found in the requirements file and also seen below. Nostalgia Developments platformer will be available on oue website, where users can interact with the five currently developed levels.
 
 # Software Requirements
 
-<Describe the structure of this section>
+The software requirements describe what our game will do and how it is expected to perform. There is a total of 50 requirements that have been laid out. Out of the 50 requirements, there are 25 function and 25 non-functional requirements with 5 differing categories.
 
-##Functional Requirements
+## Functional Requirements
 
 ### <Name of Feature 1> 
 
@@ -76,6 +76,6 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 # Software Artifacts
 
-<Describe the purpose of this section>
+Software Artifacts folder holds the artifacts which were created throughout the development of this game to help us visualize the requiremnents. These artifacts contain UML charts, class diagrams, use case diagrams, as well as a Gantt chart which we used to plan our project timeline out with.
 
-* [I am a link](to_some_file.pdf)
+* [Software Artifacts](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts)
