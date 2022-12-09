@@ -78,4 +78,4 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 <Describe the purpose of this section>
 
-* [Artifacts([https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts])
+* [Artifacts]([https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts])
