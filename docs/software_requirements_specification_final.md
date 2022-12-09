@@ -7,20 +7,52 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 # Software Requirements
 
-The software requirements describe what our game will do and how it is expected to perform. There is a total of 50 requirements that have been laid out. Out of the 50 requirements, there are 25 function and 25 non-functional requirements with 5 differing categories.
+The software requirements describe what our game will do and how it is expected to perform. There is a total of 50 requirements that have been laid out. Out of the 50 requirements, there are 25 functional and 25 non-functional requirements with 5 differing categories.
 
 ## Functional Requirements
 
-### <Name of Feature 1> 
+### Audio 
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR1 | <Requirement 1> |
-| FR2 | <Requirement 2> |
-| FR3 | <Requirement 3> |
-| … | … | … |
+| FR1 | Audio shall begin playing once overworld is opened |
+| FR2 | Audio shall begin playing once a level is entered |
+| FR3 | Audio shall play when a player jumps |
+| FR4 | Audio shall play when a player interacts with an enemy |
+| FR5 | Audio shall play when a player interacts with a coin |
 
-### <Name of Feature 2>
+### Level Data
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR6 | The level.py file shall pull graphics data from game_data.py |
+| FR7 | The level.py file shall update graphics from game_data.py during gameplay |
+| FR8 | The level.py file shall draw graphics from game_data.py during gameplay |
+| FR9 | The level.py file shall update the player direction when left and right arrow keys are pressed |
+| FR10 | The level.py file shall check the y-position of the player during gameplay |
+
+### Game Window
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR11 | The overworld window shall open when the main.py file is executed |
+| FR12 | The first level shall open when the space bar is pressed from the overworld window |
+| FR13 | The second level shall open when the first level is completed and space bar is pressed in overworld |
+| FR14 | The third level shall open when the first level is completed and space bar is pressed in overworld |
+| FR15 | The fourth level shall open when the first level is completed and space bar is pressed in overworld |
+| FR16 | The fifth level shall open when the first level is completed and space bar is pressed in overworld |
+
+
+### Sprites
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR4 | <Requirement 1> |
+| FR5 | <Requirement 2> |
+| FR6 | <Requirement 3> |
+| … | … |
+
+### Overworld
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -31,14 +63,37 @@ The software requirements describe what our game will do and how it is expected 
 
 ## Non-Functional Requirements
 
-### <Name of Feature 1> 
+### Audio
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> |
-| NFR2 | < Non-Functional Requirement 2> |
-| NFR3 | < Non-Functional Requirement 3> |
-| … | … | … |
+| NFR1 | Audio for overworld shall play fifty percent less than the original volume |
+| NFR2 | Audio for the level shall play fifty percent less than the original volume |
+| NFR3 | Audio for character jumping shall play fifty-percent louder than the background level audio |
+| NFR4 | Audio for character interaction with enemy shall play fifty-percent louder than the background level audio |
+| NFR5 | Audio for character interaction with coins shall play fifty-percent louder than the background level audio |
+
+### Level Data
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| NFR6 | The level.py file shall pull graphics data from csv files in game_data.py |
+| NFR7 | The level.py file shall update graphics from game_data.py during gameplay within half a second |
+| NFR8 | The level.py file shall draw graphics from game_data.py during gameplay within half a second |
+| NFR9 | The level.py file shall update the player direction leftward when the left key is pressed within a second |
+| NFR10 | The level.py file shall update the player direction rightward when the right key is pressed within a second |
+
+### Game Window
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| NFR11 | The game shall run at 60 FPS |
+| NFR12 | The level.py file shall update graphics from game_data.py during gameplay within half a second |
+| NFR13 | The level.py file shall draw graphics from game_data.py during gameplay within half a second |
+| NFR14 | The level.py file shall update the player direction leftward when the left key is pressed within a second |
+| NFR15 | The level.py file shall update the player direction rightward when the right key is pressed within a second |
+
+
 
 # Change management plan
 
