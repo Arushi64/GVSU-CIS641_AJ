@@ -185,7 +185,7 @@ Enjoy!
 Be aware, if you are attempting to run the game on a Mac, you may be required to install Homebrew and PyGame. Follow the links below to install:
 
 * [Homebrew](https://brew.sh/)
-* [PyGame](https://www.geeksforgeeks.org/install-pygame-in-macos/)
+* [PyGame](https://www.pygame.org/wiki/GettingStarted)
 
 Following these steps will ensure that users can enjoy this game on any operating system or ecosystem. Suppose users have any suggestions or experience any issues during gameplay/installation. In that case, they will be able to contact us directly through our GitHub Repository for advice and troubleshooting by accessing the file called 'Contact Us.'
 
