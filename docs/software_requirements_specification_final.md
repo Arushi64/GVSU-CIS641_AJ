@@ -7,7 +7,7 @@ has 50 requirements, precisely 25 functions and 25 non-functional. These require
 
 # Software Requirements
 
-The software requirements describe what our game will do and how it is expected to perform. There is a total of 50 requirements that have been laid out. Out of the 50 requirements, there are 25 functional and 25 non-functional requirements with 5 differing categories.
+The software requirements describe what our game will do and how it is expected to perform. There is a total of 69 requirements that have been laid out. Out of the 69 requirements, there are 35 functional and 34 non-functional requirements with 8 differing categories.
 
 ## Functional Requirements
 
@@ -186,9 +186,9 @@ Following these steps will ensure that users can enjoy this game on any operatin
 
 # Traceability links
 
-<Description of this section>
+This section outlines a previously developed use case diagram, class diagram, and activity diagram early on in our software development. More specifically, this section allows users and developers to track the development process from the early stages/planning to the implementation and deployment of software. In the diagrams, users and developers can also see which functional and non-functional requirements fit into these diagrams and how they were implemented in our final design. 
 
-## Use Case Diagram #1 Traceability
+## Use Case Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
@@ -209,7 +209,7 @@ Following these steps will ensure that users can enjoy this game on any operatin
 Please note in our original class diagrams we had a level editor and camera group, however, these classes did not make the final cut of our game. 
 
 
-## Activity Diagram #1 Traceability
+## Activity Diagram Traceability
 
 
 | Artifact ID  | Artifact Name | Requirement ID |
