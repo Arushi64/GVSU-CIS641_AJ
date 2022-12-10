@@ -206,7 +206,7 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | Level | FR6-17, NFR6-17, FR23-25, NFR23-25 |
 | AnimatedTile | FR35 |
 
-In our class diagrams we originally had a level editor and camera groupbut these classes did not make the final cut of our game. 
+Please note in our original class diagrams we had a level editor and camera group, however, these classes did not make the final cut of our game. 
 
 
 ## Activity Diagram #1 Traceability
@@ -220,7 +220,7 @@ In our class diagrams we originally had a level editor and camera groupbut these
 | ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | LevelThree | FR2-10, NFR2-10, FR13, NFR13, FR16-18, NFR16-18, FR25, FR27-32 |
 | ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | Quit | FR26 |
 
-
+Please note that in our original activity diagram, we were planning to allow users to name their character and have an instructions screen, however in the final cut of the game, we did not enable these features. 
 
 # Software Artifacts
 
