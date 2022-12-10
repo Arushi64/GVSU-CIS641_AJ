@@ -214,11 +214,11 @@ In our class diagrams we originally had a level editor and camera groupbut these
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| Artifacts/ActivityDiagram1 | BeginGame | FR1, NFR1, FR25 |
-| Artifacts/ActivityDiagram1 | LevelOne | FR2-11, NFR2-11, FR16-18, NFR16-18, FR25, FR27-32 |
-| Artifacts/ActivityDiagram1 | LevelTwo | FR2-10, NFR2-10, FR12, NFR12, FR16-18, NFR16-18, FR25, FR27-32 |
-| Artifacts/ActivityDiagram1 | LevelThree | FR2-10, NFR2-10, FR13, NFR13, FR16-18, NFR16-18, FR25, FR27-32 |
-| ActivityDiagram1 | Quit | FR26 |
+| ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | BeginGame | FR1, NFR1, FR25 |
+| ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | LevelOne | FR2-11, NFR2-11, FR16-18, NFR16-18, FR25, FR27-32 |
+| ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | LevelTwo | FR2-10, NFR2-10, FR12, NFR12, FR16-18, NFR16-18, FR25, FR27-32 |
+| ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | LevelThree | FR2-10, NFR2-10, FR13, NFR13, FR16-18, NFR16-18, FR25, FR27-32 |
+| ![Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png) | Quit | FR26 |
 
 
 
