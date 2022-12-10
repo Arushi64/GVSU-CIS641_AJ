@@ -9,18 +9,16 @@ We are currently developing a game that combines previously created 2D games fro
 * [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi)
 * [Adilakshmi](https://github.com/adi798915/641-Hw2-jammigumpula)
 
+
 ## Run Instructions
 
 
 Our game can be downloaded as a .zip file containing all the necessary files to run it on their computers. Please follow the steps below to run the game:
-
-*Access our GitHub Repository here: https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment
-*Click on the code button and download .zip
-*Extract the files from .zip folder
-*Download Python onto your computer from here: https://www.python.org/downloads/
-*Download Visual Studio Code (VSC) onto your computer from here: https://code.visualstudio.com/download
-*Navigate to the main.py file using VSC following this path: src/code/levels/main.py
-*Select the 'play/run' button on the top right of Visual Studio Code
+* Access our GitHub Repository here: https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment
+* Click on the code button and download .zip
+* Download Python onto your computer from here: https://www.python.org/downloads/
+* Navigate to the main.py file using VSC following this path: src/code/levels/main.py
+* Select the 'play/run' button on the top right of Visual Studio Code
 
 Enjoy!
 
