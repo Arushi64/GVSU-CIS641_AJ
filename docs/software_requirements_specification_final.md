@@ -82,6 +82,15 @@ The software requirements describe what our game will do and how it is expected 
 | FR33 | All levels shall have water decorations |
 | FR34 | All levels shall have sky decorations |
 
+### Animations
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR35 | All enemy sprites shall animate when main character jumps on the enemy  |
+
+
+
+
 
 ## Non-Functional Requirements
 
@@ -130,11 +139,11 @@ The software requirements describe what our game will do and how it is expected 
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR22 | The overworld level one shall have a fixed node posiiton of (110, 400) |
-| NFR23 | The overworld level two shall have a fixed node posiiton of (300, 220) |
-| NFR24 | The overworld level three shall have a fixed node posiiton of (480, 610) |
-| NFR25 | The overworld level four shall have a fixed node posiiton of (610, 350) |
-| NFR26 | The overworld level five shall have a fixed node posiiton of (880, 210) |
+| NFR22 | The overworld level one shall have a fixed node position of (110, 400) |
+| NFR23 | The overworld level two shall have a fixed node position of (300, 220) |
+| NFR24 | The overworld level three shall have a fixed node position of (480, 610) |
+| NFR25 | The overworld level four shall have a fixed node position of (610, 350) |
+| NFR26 | The overworld level five shall have a fixed node position of (880, 210) |
 
 ### User Interface
 
@@ -187,13 +196,6 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | MainCharacter | Move(Actions) | FR9-10, NFR9-10 |
 | MainCharacter | TravereseGame | FR22-26, NFR22-26, FR11-17, NFR11-17 |
 
-## Use Case Diagram #2 Traceability
-
-| Artifact ID  | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| MainCharacter | LoseHealth | FR18, NFR18, FR27, NFR27 |
-| MainCharacter | EnemyInteraction | FR4, NFR4 |
-
 
 ## Class Diagram Traceability
 
@@ -202,19 +204,23 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | Water | FR33, NFR33 |
 | Sky | FR34, NFR34 |
 | Level | FR6-17, NFR6-17, FR23-25, NFR23-25 |
+| AnimatedTile | FR35 |
+
+In our class diagrams we originally had a level editor and camera groupbut these classes did not make the final cut of our game. 
 
 
 ## Activity Diagram #1 Traceability
 
-<In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <ActivityDiagram1> | BeginGame | FR1, NFR1, FR25 |
-| <ActivityDiagram1> | LevelOne | FR2-11, NFR2-11, FR16-18, NFR16-18, FR25, FR27-32 |
-| <ActivityDiagram1> | LevelTwo | FR2-10, NFR2-10, FR12, NFR12, FR16-18, NFR16-18, FR25, FR27-32 |
-| <ActivityDiagram1> | LevelThree | FR2-10, NFR2-10, FR13, NFR13, FR16-18, NFR16-18, FR25, FR27-32 |
-| <ActivityDiagram1> | Quit | FR26 |
+| Artifacts/ActivityDiagram1 | BeginGame | FR1, NFR1, FR25 |
+| Artifacts/ActivityDiagram1 | LevelOne | FR2-11, NFR2-11, FR16-18, NFR16-18, FR25, FR27-32 |
+| Artifacts/ActivityDiagram1 | LevelTwo | FR2-10, NFR2-10, FR12, NFR12, FR16-18, NFR16-18, FR25, FR27-32 |
+| Artifacts/ActivityDiagram1 | LevelThree | FR2-10, NFR2-10, FR13, NFR13, FR16-18, NFR16-18, FR25, FR27-32 |
+| ActivityDiagram1 | Quit | FR26 |
+
+
 
 # Software Artifacts
 
