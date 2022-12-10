@@ -9,8 +9,6 @@ We are currently developing a game that combines previously created 2D games fro
 * [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi)
 * [Adilakshmi](https://github.com/adi798915/641-Hw2-jammigumpula)
 
-## Prerequisites
-
 ## Run Instructions
 
 ## Website
