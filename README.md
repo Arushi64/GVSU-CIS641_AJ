@@ -7,7 +7,7 @@ We are currently developing a game that combines previously created 2D games fro
 * [Arushi Sharma](https://github.com/Arushi64/-CIS641-HW2-Sharma) 
 * [Jeremy Wood](https://github.com/woodjer18/CIS641-HW2-Wood.git)
 * [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi)
-* [Adilakshmi](https://github.com/adi798915/641-Hw2-jammigumpula)
+* [Adilakshmi Jammigumpula](https://github.com/adi798915/641-Hw2-jammigumpula)
 
 
 ## Run Instructions
