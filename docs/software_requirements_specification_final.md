@@ -226,4 +226,6 @@ Please note that in our original activity diagram, we were planning to allow use
 
 Software Artifacts folder holds the artifacts which were created throughout the development of this game to help us visualize the requiremnents. These artifacts contain a use case diagram, a class diagram, and an activity diagram.
 
-* [Software Artifacts](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts)
+* [Use Case Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/Object%20and%20Class%20Diagrams.pdf)
+* [Class Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/Object%20and%20Class%20Diagrams.pdf)
+* [Activity Diagram](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/blob/master/artifacts/activity_diagram.png)
