@@ -75,6 +75,13 @@ The software requirements describe what our game will do and how it is expected 
 | FR31 | The coin count shall update |
 | FR32 | The coin count shall have a fixed position |
 
+### Decorations
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR33 | All levels shall have water decorations |
+| FR34 | All levels shall have sky decorations |
+
 
 ## Non-Functional Requirements
 
@@ -140,6 +147,14 @@ The software requirements describe what our game will do and how it is expected 
 | NFR31 | The coin count shall increase by 1 when player interacts with coins |
 | NFR32 | The coin count shall have a fixed position x and y position of (50, 51) |
 
+### Decorations
+
+| ID  | Requirement |
+| :-------------: | :----------: |
+| NFR33 | All level screens shall have water decorations with a water tile width of 192pixels |
+| NFR34 | All level screens shall have sky decorations at various (x, y) positions |
+
+
 # Change management plan
 
 Nowadays, consumers are a click away from downloading a game from an app store. So why play our game? Nostalgia development incorporates a user-friendly experience with a touch of nostalgia. Have you ever missed old 2D platformer games such as Super Mario Bros!, Dangerous Dave, and Sonic? Nostalgia Developments swing on old 2D platformer games and bring back a sense of joy with familiar characters such as Princess Peach and Mario while incorporating new graphics, audio, and enemies.
@@ -180,32 +195,22 @@ Following these steps will ensure that users can enjoy this game on any operatin
 | MainCharacter | EnemyInteraction | FR4, NFR4 |
 
 
-
-
 ## Class Diagram Traceability
 
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
-| … | … | … |
-
-## Activity Diagram Traceability
-
-<In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
-
-| Artifact ID  | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
-| … | … | … |
+| Water | FR33, NFR33 |
+| Sky | FR34, NFR34 |
+| Level | FR6-17, NFR6-17, FR23-25, NFR23-25 |
 
 
-## Activity Diagram Traceability
+## Activity Diagram #1 Traceability
 
 <In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
+| <filename> | Begin Game |  |
 | … | … | … |
 
 
