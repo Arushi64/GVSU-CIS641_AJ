@@ -22,6 +22,11 @@ Our game can be downloaded as a .zip file containing all the necessary files to 
 * Navigate to the main.py file using VSC following this path: src/code/levels/main.py
 * Select the 'play/run' button on the top right of VSC
 
+Be aware, if you are attempting to run the game on a Mac, you may be required to install Homebrew and PyGame. Follow the links below to install:
+
+* [Homebrew](https://brew.sh/)
+* [PyGame](https://www.geeksforgeeks.org/install-pygame-in-macos/)
+
 Enjoy!
 
 ## Website
