@@ -16,9 +16,11 @@ This project is designed to highlight similar features that many users found enj
 Our game can be downloaded as a .zip file containing all the necessary files to run it on their computers. Please follow the steps below to run the game:
 * Access our GitHub Repository here: https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment
 * Click on the code button and download .zip
-* Download Python onto your computer from here: https://www.python.org/downloads/ and then install the PyGame on VSCode
+* Extract the files from .zip folder
+* Download Python onto users computer here: https://www.python.org/downloads/
+* Download Visual Studio Code (VSC) onto users computer here: https://code.visualstudio.com/download
 * Navigate to the main.py file using VSC following this path: src/code/levels/main.py
-* Select the 'play/run' button on the top right of Visual Studio Code
+* Select the 'play/run' button on the top right of VSC
 
 Enjoy!
 
