@@ -25,7 +25,7 @@ Our game can be downloaded as a .zip file containing all the necessary files to 
 Be aware, if you are attempting to run the game on a Mac, you may be required to install Homebrew and PyGame. Follow the links below to install:
 
 * [Homebrew](https://brew.sh/)
-* [PyGame](https://www.geeksforgeeks.org/install-pygame-in-macos/)
+* [PyGame](https://www.pygame.org/wiki/GettingStarted)
 
 Enjoy!
 
