@@ -2,12 +2,12 @@
 
 This project is designed to highlight similar features that many users found enjoyable in various Mario 2D platformers from the late 1990s and early 2000s. Nostalgia Development developed a game that roped in familiar elements of 2D platformers but also included familiar characters that would bring forth nostalgia for users. 
 
-## Team Members and Roles
+## Team Members
 
-* [Arushi Sharma](https://github.com/Arushi64/-CIS641-HW2-Sharma) 
-* [Jeremy Wood](https://github.com/woodjer18/CIS641-HW2-Wood.git)
-* [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi)
-* [Adilakshmi Jammigumpula](https://github.com/adi798915/641-Hw2-jammigumpula)
+* [Arushi Sharma](https://github.com/Arushi64/-CIS641-HW2-Sharma) Developer
+* [Jeremy Wood](https://github.com/woodjer18/CIS641-HW2-Wood.git) Developer
+* [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi) Web Developer
+* [Adilakshmi Jammigumpula](https://github.com/adi798915/641-Hw2-jammigumpula) Developer
 
 
 ## Run Instructions
