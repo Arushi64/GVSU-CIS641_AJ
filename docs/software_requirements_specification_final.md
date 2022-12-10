@@ -3,7 +3,7 @@
 The purpose of the game Nostalgia Development created is to provide users with a sense of nostalgia. The game is designed to highlight similar features
 that many users found enjoyable in various Mario 2D platformers from the late 1990s and early 2000s. Nostalgia Development developed a game that
 roped in familiar elements of 2D platformers but also included familiar characters that would bring forth nostalgia for users. This platformer
-has 50 requirements, precisely 25 functions and 25 non-functional. These requirements can be found in the requirements file and also seen below. Nostalgia Developments platformer will be available on oue website, where users can interact with the five currently developed levels.
+has 69 requirements, precisely 35 functions and 34 non-functional. These requirements can be seen below. Nostalgia Developments platformer will be available on oue website, where users can interact with the five currently developed levels.
 
 # Software Requirements
 
