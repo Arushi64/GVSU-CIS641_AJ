@@ -224,6 +224,6 @@ Please note that in our original activity diagram, we were planning to allow use
 
 # Software Artifacts
 
-Software Artifacts folder holds the artifacts which were created throughout the development of this game to help us visualize the requiremnents. These artifacts contain UML charts, class diagrams, use case diagrams, as well as a Gantt chart which we used to plan our project timeline out with.
+Software Artifacts folder holds the artifacts which were created throughout the development of this game to help us visualize the requiremnents. These artifacts contain a use case diagram, a class diagram, and an activity diagram.
 
 * [Software Artifacts](https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment/tree/master/artifacts)
