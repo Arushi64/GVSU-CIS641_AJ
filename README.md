@@ -30,4 +30,4 @@ Be aware, if you are attempting to run the game on a Mac, you may be required to
 Enjoy!
 
 ## Website
-https://pridhvi2297.github.io/Group/
+https://pridhvi2297.github.io/NostalgiaDevelopment/
