@@ -179,7 +179,13 @@ Users of our game can download a .zip file containing all the necessary files to
 5. Download Visual Studio Code (VSC) onto users computer here: https://code.visualstudio.com/download
 6. Navigate to the main.py file using VSC following this path: src/code/levels/main.py
 7. Select the 'play/run' button on the top right of VSC
-8. Enjoy!
+
+Enjoy!
+
+Be aware, if you are attempting to run the game on a Mac, you may be required to install Homebrew and PyGame. Follow the links below to install:
+
+* [Homebrew](https://brew.sh/)
+* [PyGame](https://www.geeksforgeeks.org/install-pygame-in-macos/)
 
 Following these steps will ensure that users can enjoy this game on any operating system or ecosystem. Suppose users have any suggestions or experience any issues during gameplay/installation. In that case, they will be able to contact us directly through our GitHub Repository for advice and troubleshooting by accessing the file called 'Contact Us.'
 
