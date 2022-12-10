@@ -4,10 +4,10 @@ This project is designed to highlight similar features that many users found enj
 
 ## Team Members
 
-* [Arushi Sharma](https://github.com/Arushi64/-CIS641-HW2-Sharma) Developer
-* [Jeremy Wood](https://github.com/woodjer18/CIS641-HW2-Wood.git) Developer
-* [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi) Web Developer
-* [Adilakshmi Jammigumpula](https://github.com/adi798915/641-Hw2-jammigumpula) Developer
+* [Arushi Sharma](https://github.com/Arushi64/-CIS641-HW2-Sharma): Developer
+* [Jeremy Wood](https://github.com/woodjer18/CIS641-HW2-Wood.git): Developer
+* [Adilakshmi Jammigumpula](https://github.com/adi798915/641-Hw2-jammigumpula): Developer
+* [Pridhvinath Chowdary Marathi](https://github.com/Pridhvi2297/CIS641-HW2-Marathi): Web Developer
 
 
 ## Run Instructions
