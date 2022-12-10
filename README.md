@@ -22,6 +22,6 @@ Our game can be downloaded as a .zip file containing all the necessary files to 
 *Navigate to the main.py file using VSC following this path: src/code/levels/main.py
 *Select the 'play/run' button on the top right of Visual Studio Code
 
-####Enjoy!
+Enjoy!
 
 ## Website
