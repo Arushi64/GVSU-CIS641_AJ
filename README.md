@@ -12,16 +12,16 @@ We are currently developing a game that combines previously created 2D games fro
 ## Run Instructions
 
 
-Our game can be downloaded as a .zip file containing all the necessary files to run it on their computers. All users are expected to download this file and access the main.py file through the following path: src/code/levels/main.py. Once users run the main.py file, they will be greeted with an overworld experience containing five unique gameplay levels. All users are required to do is the following:
+Our game can be downloaded as a .zip file containing all the necessary files to run it on their computers. Please follow the steps below to run the game:
 
 *Access our GitHub Repository here: https://github.com/Arushi64/GVSU-CIS641_NostalgiaDevelopment
 *Click on the code button and download .zip
 *Extract the files from .zip folder
-*Download Python onto users computer here: https://www.python.org/downloads/
-*Download Visual Studio Code (VSC) onto users computer here: https://code.visualstudio.com/download
+*Download Python onto your computer from here: https://www.python.org/downloads/
+*Download Visual Studio Code (VSC) onto your computer from here: https://code.visualstudio.com/download
 *Navigate to the main.py file using VSC following this path: src/code/levels/main.py
-*Select the 'play/run' button on the top right of VSC
+*Select the 'play/run' button on the top right of Visual Studio Code
 
-Enjoy!
+####Enjoy!
 
 ## Website
