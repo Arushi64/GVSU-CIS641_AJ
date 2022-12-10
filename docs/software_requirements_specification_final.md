@@ -166,7 +166,7 @@ The software requirements describe what our game will do and how it is expected 
 
 # Change management plan
 
-Nowadays, consumers are a click away from downloading a game from an app store. So why play our game? Nostalgia development incorporates a user-friendly experience with a touch of nostalgia. Have you ever missed old 2D platformer games such as Super Mario Bros!, Dangerous Dave, and Sonic? Nostalgia Developments swing on old 2D platformer games and bring back a sense of joy with familiar characters such as Princess Peach and Mario while incorporating new graphics, audio, and enemies.
+Nowadays, consumers are a click away from downloading a game from an app store. So why play our game? Nostalgia Development incorporates a user-friendly experience with a touch of nostalgia. Have you ever missed old 2D platformer games such as Super Mario Bros!, Dangerous Dave, and Sonic? Nostalgia Developments swing on old 2D platformer games and bring back a sense of joy with familiar characters such as Princess Peach and Mario while incorporating new graphics, audio, and enemies.
 
 The gameplay is so simple that you could even teach your Grandmother to use the program! Users are only required to use three keys: the left, the right, and the spacebar keys. The left and right keys will allow the player to move left and rightward during gameplay and allow for level selection once a level is unlocked in the overworld. The spacebar will enable users to select their desired level in the overworld and let players jump during level gameplay.  
 
