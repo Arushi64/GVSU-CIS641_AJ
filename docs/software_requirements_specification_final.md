@@ -210,9 +210,11 @@ Following these steps will ensure that users can enjoy this game on any operatin
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <filename> | Begin Game |  |
-| … | … | … |
-
+| <ActivityDiagram1> | BeginGame | FR1, NFR1, FR25 |
+| <ActivityDiagram1> | LevelOne | FR2-11, NFR2-11, FR16-18, NFR16-18, FR25, FR27-32 |
+| <ActivityDiagram1> | LevelTwo | FR2-10, NFR2-10, FR12, NFR12, FR16-18, NFR16-18, FR25, FR27-32 |
+| <ActivityDiagram1> | LevelThree | FR2-10, NFR2-10, FR13, NFR13, FR16-18, NFR16-18, FR25, FR27-32 |
+| <ActivityDiagram1> | Quit | FR26 |
 
 # Software Artifacts
 
